@@ -8,6 +8,10 @@ Ces instructions sont définies par défaut pour un système Linux avec quelques
 
 1. Cloner le dépot et se placer à la racine du projet comme à la section précédente
 
+1. (Facultatif) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
+
+        $ source venv/bin/activate
+
 1. Installer la dernière version de Python. Sous Linux :
 
         $ sudo apt-get update
