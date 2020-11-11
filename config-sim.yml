@@ -1,0 +1,35 @@
+parametres:
+
+  simulation:
+
+    metadonnees_foret:
+      largeur_foret: 32
+      hauteur_foret: 24
+      probabilite_propagation: 0.5
+
+    feux_depart:
+      - ligne: 1
+        colonne: 1
+      - ligne: 8
+        colonne: 8
+      - ligne: 16
+        colonne: 24
+      - ligne: 23
+        colonne: 31
+
+  display:
+
+    activer_logs_console: true
+    play_animation: true
+    fps_max_animation: 20
+
+    couleurs:
+      couleur_arbre_hex: '#44BC5F'
+      couleur_feu_hex: '#E85746'
+      couleur_cendre_hex: '#757575'
+
+    plot_window:
+      window_extend: false
+      window_largeur: 960
+      window_hauteur: 540
+
