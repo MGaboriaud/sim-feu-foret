@@ -32,7 +32,7 @@ Ces instructions sont définies par défaut pour un système Linux avec quelques
 
         $ pip3 install numpy
         $ pip3 install matplotlib
-        $ pip3 install yaml
+        $ pip3 install pyyaml
         $ pip3 install webcolors
 
 ## Lancement de la simulation
