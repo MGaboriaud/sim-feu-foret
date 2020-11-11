@@ -11,10 +11,6 @@ Ces instructions sont définies par défaut pour un système Linux. Quelques alt
         $ git clone https://github.com/MGaboriaud/sim-feu-foret.git
         $ cd sim-feu-foret
 
-1. (Facultatif, sous Linux exclusivement) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
-
-        $ source venv/bin/activate
-
 1. Installer la dernière version de Python. Sous Linux :
 
         $ sudo apt-get update
@@ -33,6 +29,10 @@ Ces instructions sont définies par défaut pour un système Linux. Quelques alt
         $ sudo apt-get install python3-tk
         
     Sous Windows, Tk est normalement déjà inclus dans l'installateur de Python 3, mais il est possible que son utilisation par le programme ne marche pas sous cet OS.
+
+1. (Facultatif, sous Linux exclusivement) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
+
+        $ source venv/bin/activate
 
 1. Installer les dépendances suivantes avec pip (commandes sous Linux et Windows) :
 
