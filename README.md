@@ -6,19 +6,6 @@ Simulation d'un feu de forêt en Python 3.7
 
 Ces instructions sont définies par défaut pour un système Linux avec quelques alternatives pour Windows. Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
 
-**En utilisant l'environnement virtuel**
-
-1. Cloner le dépot et se placer à la racine du projet
-
-        $ git clone https://github.com/MGaboriaud/sim-feu-foret.git
-        $ cd sim-feu-foret
-
-1. Utiliser l'environnement virtuel contenant toutes les dépendances
-
-        $ source venv/bin/activate
-
-**Sans environnement virtuel**
-
 1. Cloner le dépot et se placer à la racine du projet comme à la section précédente
 
 1. Installer la dernière version de Python. Sous Linux :
