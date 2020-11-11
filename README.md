@@ -11,7 +11,7 @@ Ces instructions sont définies par défaut pour un système Linux avec quelques
         $ git clone https://github.com/MGaboriaud/sim-feu-foret.git
         $ cd sim-feu-foret
 
-1. (Facultatif) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
+1. (Facultatif, sous Linux exclusivement) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
 
         $ source venv/bin/activate
 
