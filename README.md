@@ -4,7 +4,7 @@ Simulation d'un feu de forêt en Python 3.7
 
 ## Installation
 
-Ces instructions sont définies par défaut pour un système Linux. Quelques alternatives sont énoncées pour Windows, mais le bon fonctionnement du programme n'est pas garanti sous ce système d'exploitation (notamment car la visualisation de la simulation se fait via matplotlib et nécessite un back-end Tk). Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
+Ces instructions sont définies par défaut pour un système Linux. Quelques alternatives sont énoncées pour Windows, mais le bon fonctionnement du programme n'est pas garanti sous ce système d'exploitation (notamment car la visualisation de la simulation se fait via matplotlib et nécessite un back-end Tkinter). Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
 
 1. Cloner le dépot et se placer à la racine du projet
 
@@ -24,11 +24,11 @@ Ces instructions sont définies par défaut pour un système Linux. Quelques alt
     
     Sous Windows, suivre la procédure suivante : https://www.geeksforgeeks.org/how-to-install-pip-on-windows/
     
-1. Installer le framework Tk pour le bon fonctionnement de la visualisation de la simulation
+1. Installer le framework Tkinter pour le bon fonctionnement de la visualisation de la simulation
 
         $ sudo apt-get install python3-tk
         
-    Sous Windows, Tk est normalement déjà inclus dans l'installateur de Python 3, mais il est possible que son utilisation par le programme ne marche pas sous cet OS.
+    Sous Windows, Tkinter est normalement déjà inclus dans l'installateur de Python 3, mais il est possible que son utilisation par le programme ne marche pas sous cet OS.
 
 1. (Facultatif, sous Linux exclusivement) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
 
