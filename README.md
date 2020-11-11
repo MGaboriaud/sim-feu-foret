@@ -6,7 +6,10 @@ Simulation d'un feu de forêt en Python 3.7
 
 Ces instructions sont définies par défaut pour un système Linux avec quelques alternatives pour Windows. Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
 
-1. Cloner le dépot et se placer à la racine du projet comme à la section précédente
+1. Cloner le dépot et se placer à la racine du projet
+
+        $ git clone https://github.com/MGaboriaud/sim-feu-foret.git
+        $ cd sim-feu-foret
 
 1. (Facultatif) Se placer dans l'environnement virtuel du projet pour éviter que les dépendances ne soient installées en global sur la machine
 
