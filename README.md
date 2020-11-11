@@ -4,7 +4,7 @@ Simulation d'un feu de forêt en Python 3.7
 
 ## Installation
 
-Ces instructions sont définies pour un système Linux. Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
+Ces instructions sont définies par défaut pour un système Linux avec quelques alternatives pour Windows. Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
 
 **En utilisant l'environnement virtuel**
 
