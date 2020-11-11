@@ -2,7 +2,50 @@
 
 Simulation d'un feu de forêt en Python 3.7
 
-## Installation et lancement
+## Installation
+
+Ces instructions sont définies pour un système Linux. Il est préférable que la distribution choisie dispose d'un GUI pour le bon fonctionnement de la simulation.
+
+**En utilisant l'environnement virtuel**
+
+1. Cloner le dépot et se placer à la racine du projet
+
+        $ git clone https://github.com/MGaboriaud/sim-feu-foret.git
+        $ cd sim-feu-foret
+
+1. Utiliser l'environnement virtuel contenant toutes les dépendances
+
+        $ source venv/bin/activate
+
+**Sans environnement virtuel**
+
+1. Cloner le dépot et se placer à la racine du projet comme à la section précédente
+
+1. Installer la dernière version de Python. Sous Linux :
+
+        $ sudo apt-get update
+        $ sudo apt-get install python3
+
+    Sous Windows, utiliser un setup fourni par Python : https://www.python.org/downloads/windows/
+
+1. Installer la dernière version de pip pour la gestion des paquets
+
+        $ sudo apt-get install python3-pip
+    
+    Sous Windows, suivre la procédure suivante : https://www.geeksforgeeks.org/how-to-install-pip-on-windows/
+
+1. Installer les dépendances suivantes avec pip (commandes sous Linux et Windows) :
+
+        $ pip3 install numpy
+        $ pip3 install matplotlib
+        $ pip3 install yaml
+        $ pip3 install webcolors
+
+## Lancement de la simulation
+
+Une fois le programme et les dépendances installés, se placer à la racine du projet et exécuter :
+
+    $ python3 main.py
 
 ## Configuration de la simulation
 
