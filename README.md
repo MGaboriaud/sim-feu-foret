@@ -27,6 +27,12 @@ Ces instructions sont définies par défaut pour un système Linux avec quelques
         $ sudo apt-get install python3-pip
     
     Sous Windows, suivre la procédure suivante : https://www.geeksforgeeks.org/how-to-install-pip-on-windows/
+    
+1. Installer le framework Tk pour le bon fonctionnement de la visualisation de la simulation
+
+        $ sudo apt-get install python3-tk
+        
+    Sous Windows, Tk est normalement déjà inclus dans l'installateur de Python 3.
 
 1. Installer les dépendances suivantes avec pip (commandes sous Linux et Windows) :
 
